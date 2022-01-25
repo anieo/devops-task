@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: factorial
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: factorial
+  template:
+    metadata:
+      labels:
+        app: factorial
+    spec:
+      containers:
+      - name: factorialapp
+        image: factorial:kub  

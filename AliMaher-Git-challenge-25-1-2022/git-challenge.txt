@@ -1,0 +1,32 @@
+git commit
+
+git checkout -b feature1
+
+git commit
+
+git commit
+
+
+git checkout main
+
+git commit
+
+git checkout feature1
+
+git commit
+
+git commit
+
+git checkout main
+
+git commit
+
+git branch hotfix
+
+git checkout feature1
+
+git commit
+
+git checkout -b developer
+
+git merge main

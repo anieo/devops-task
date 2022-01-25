@@ -1,0 +1,5 @@
+FROM python:alpine
+WORKDIR /code
+copy ./app /code/app
+WORKDIR /code/app
+CMD python app.py
